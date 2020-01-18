@@ -1,2 +1,2 @@
-FROM hshar/webapp
-ADD . /var/www/html
+FROM httpd:latest
+COPY ./index.html /var/www/html
